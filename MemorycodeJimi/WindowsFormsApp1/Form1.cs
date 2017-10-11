@@ -7,12 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
         Random rnd = new Random();
+        PictureBox firstClick, secondClick;
 
         public Form1()
         {
@@ -29,8 +31,22 @@ namespace WindowsFormsApp1
         private void ImageClick(object sender, EventArgs e)
         {
             PictureBox picturebox = sender as PictureBox;
-            if (picturebox.BackColor != Color.Black)
-                picturebox.BackColor = Color.Black;
+            if (firstClick == null && picturebox.BackColor != Color.Green)
+            {
+                firstClick = picturebox;
+                picturebox.BackColor = Color.Red;
+                Console.WriteLine(picturebox.Tag);
+            }
+            else if (firstClick != picturebox && picturebox.BackColor != Color.Green)
+            {
+                secondClick = picturebox;
+                picturebox.BackColor = Color.Red;
+                Thread.Sleep(1000);
+                Console.WriteLine(picturebox.Tag);
+                ResolveMatch(firstClick, secondClick);
+                firstClick = null;
+                secondClick = null;
+            }
         }
 
         private List<MemoryCard> MakeList()     //maakt een lijst met memorycardobjecten.
@@ -61,6 +77,21 @@ namespace WindowsFormsApp1
             list.RemoveAt(i);
         }
 
+        private void ResolveMatch(PictureBox first, PictureBox second)
+        {
+            //ergens moeten we even een tijdje wachten voor player experience ofzo.
+            if(Convert.ToInt32(first.Tag) == Convert.ToInt32(second.Tag))
+            {
+                first.BackColor = Color.Green;
+                second.BackColor = Color.Green;
+            }
+            else
+            {
+                first.BackColor = Color.White;
+                second.BackColor = Color.White;
+            }
+
+        }
 
     }
 }
