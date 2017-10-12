@@ -16,5 +16,13 @@ namespace Memory_Game_Startmenu
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Homescreen home = new Homescreen();
+            this.Hide();
+            home.ShowDialog();
+            this.Close();
+        }
     }
 }

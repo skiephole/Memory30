@@ -19,23 +19,28 @@ namespace Memory_Game_Startmenu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            playernames Login = new playernames();
+            playernames login = new playernames();
             this.Hide();
-            Login.ShowDialog();
+            login.ShowDialog();
             this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Highscores Highscore = new Highscores();
+            Highscores highscore = new Highscores();
             this.Hide();
-            Highscore.ShowDialog();
+            highscore.ShowDialog();
             this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

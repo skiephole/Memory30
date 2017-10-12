@@ -19,17 +19,17 @@ namespace Memory_Game_Startmenu
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MemoryGame Memory = new MemoryGame();
+            MemoryGame memory = new MemoryGame();
             this.Hide();
-            Memory.ShowDialog();
+            memory.ShowDialog();
             this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Homescreen Home = new Homescreen();
+            Homescreen home = new Homescreen();
             this.Hide();
-            Home.ShowDialog();
+            home.ShowDialog();
             this.Close();
         }
 

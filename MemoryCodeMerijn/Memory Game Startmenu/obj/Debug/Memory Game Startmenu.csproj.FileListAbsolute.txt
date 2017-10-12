@@ -8,3 +8,14 @@ c:\users\merij\onedrive\documenten\visual studio 2017\Projects\Memory Game Start
 c:\users\merij\onedrive\documenten\visual studio 2017\Projects\Memory Game Startmenu\Memory Game Startmenu\obj\Debug\Memory Game Startmenu.pdb
 c:\users\merij\onedrive\documenten\visual studio 2017\Projects\Memory Game Startmenu\Memory Game Startmenu\obj\Debug\Memory_Game_Startmenu.playernames.resources
 c:\users\merij\onedrive\documenten\visual studio 2017\Projects\Memory Game Startmenu\Memory Game Startmenu\obj\Debug\Memory_Game_Startmenu.Homescreen.resources
+C:\Users\merij\Documents\Visual Studio 2017\Projects\Memory Project\MemoryCodeMerijn\Memory Game Startmenu\bin\Debug\Memory Game Startmenu.exe.config
+C:\Users\merij\Documents\Visual Studio 2017\Projects\Memory Project\MemoryCodeMerijn\Memory Game Startmenu\bin\Debug\Memory Game Startmenu.exe
+C:\Users\merij\Documents\Visual Studio 2017\Projects\Memory Project\MemoryCodeMerijn\Memory Game Startmenu\bin\Debug\Memory Game Startmenu.pdb
+C:\Users\merij\Documents\Visual Studio 2017\Projects\Memory Project\MemoryCodeMerijn\Memory Game Startmenu\obj\Debug\Memory Game Startmenu.csprojResolveAssemblyReference.cache
+C:\Users\merij\Documents\Visual Studio 2017\Projects\Memory Project\MemoryCodeMerijn\Memory Game Startmenu\obj\Debug\Memory_Game_Startmenu.Highscores.resources
+C:\Users\merij\Documents\Visual Studio 2017\Projects\Memory Project\MemoryCodeMerijn\Memory Game Startmenu\obj\Debug\Memory_Game_Startmenu.Homescreen.resources
+C:\Users\merij\Documents\Visual Studio 2017\Projects\Memory Project\MemoryCodeMerijn\Memory Game Startmenu\obj\Debug\Memory_Game_Startmenu.playernames.resources
+C:\Users\merij\Documents\Visual Studio 2017\Projects\Memory Project\MemoryCodeMerijn\Memory Game Startmenu\obj\Debug\Memory_Game_Startmenu.Properties.Resources.resources
+C:\Users\merij\Documents\Visual Studio 2017\Projects\Memory Project\MemoryCodeMerijn\Memory Game Startmenu\obj\Debug\Memory Game Startmenu.csproj.GenerateResource.Cache
+C:\Users\merij\Documents\Visual Studio 2017\Projects\Memory Project\MemoryCodeMerijn\Memory Game Startmenu\obj\Debug\Memory Game Startmenu.exe
+C:\Users\merij\Documents\Visual Studio 2017\Projects\Memory Project\MemoryCodeMerijn\Memory Game Startmenu\obj\Debug\Memory Game Startmenu.pdb
